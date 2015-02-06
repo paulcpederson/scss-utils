@@ -27,7 +27,7 @@ If you do that, you should probably add the folder to your project's gitignore.
 ## Drag and Drop It
 
 1. Go to the [releases page](https://github.com/paulcpederson/scss-utils/releases).
-2. Click the green button to download a zip.
+2. Click the button to download a zip.
 3. Decompress and drop in your SCSS folder.
 
 ## Use
@@ -66,7 +66,7 @@ Whatever install method you used, now you can just:
 
 #### Animation
 
-The animation mixin allows you to declare cross-browser animations. The mixin accepts
+The animation mixin allows you to declare cross-browser animations:
 
 ```scss
 box:hover {
@@ -108,7 +108,7 @@ Valid values are `content-box`, `border-box`, and `inherit`.
 Set the `box-shadow` property for all browsers (with browser prefixes):
 
 ```scss
-@include box-shadow(border-box);
+@include box-shadow(10px 10px 5px #888888);
 ```
 
 #### Calc
@@ -121,7 +121,7 @@ Shorthand for setting a property to use a `calc` value. Pass the property you'd 
 
 #### Clearfix
 
-Applies the framework-standard clear for floated elements:
+Applies a clear for floated elements:
 
 ```scss
 @include clearfix();
@@ -132,7 +132,7 @@ Applies the framework-standard clear for floated elements:
 For creating animations, you can use the `keyframes` mixin. This mixin accepts an animation name. Then inside the mixin, write your animation as a content block:
 
 ```scss
-@include keyframes(ANIMATION_NAME){
+@include keyframes(ANIMATION_NAME) {
   0%   { background-color: #ffccf2; }
   100% { background-color: #ccffff; }
 };
@@ -158,7 +158,7 @@ In this way you can prefix any property. Adding the `spec` as the last argument 
 
 #### Respond To
 
-The `respond-to` mixin adds media queries for use in responsive design. The mixin accepts three arguments: maximum size, minimum size, and type (screen, print, etc). You can pass just the first out of convenience. This mixin works well with the [breakpoint variables](../sass#breakpoints):
+The `respond-to` mixin adds media queries for use in responsive design. The mixin accepts three arguments: maximum size, minimum size, and type (screen, print, etc). You can pass just the first out of convenience. This mixin works well if you save your breakpoints as variables:
 
 ```scss
 .my-div {
