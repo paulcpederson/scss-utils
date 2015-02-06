@@ -1,0 +1,22 @@
+{
+  "name": "scss-utils",
+  "version": "0.0.0",
+  "description": "Basic sass utilities and mixins",
+  "main": "index.js",
+  "homepage": "https://github.com/paulcpederson/scss-utils",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulcpederson/scss-utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": ["scss-utils.scss", "utils/"],
+  "keywords": [
+    "scss",
+    "sass",
+    "mixins"
+  ],
+  "author": "Paul C Pederson <paul.c.pederson@gmail.com> (http://paulcpederson.com/)",
+  "license": "ISC"
+}
