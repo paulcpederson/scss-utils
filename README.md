@@ -49,6 +49,7 @@ Whatever install method you used, now you can just:
 | [`calc`](#calc)                               | `$property, $value`            |
 | [`clearfix`](#clearfix)                       | none                           |
 | [`keyframes`](#keyframes)                     | `$name`                        |
+| [`placeholder`](#placeholder)                 | none                           |
 | [`prefixer`](#prefixer)                       | `$property, $value, $prefixes` |
 | [`respond-to`](#respond-to)                   | `$max, $mi, $type`             |
 | [`transform`](#transform)                     | `$property`                    |
@@ -145,6 +146,20 @@ Now you can use the [animation mixin](#animation) as a named animation like this
   @include animation( @include animation(ANIMATION_NAME 200ms ease-in);)
 }
 ```
+
+#### Placeholder
+
+Write styles for placeholder attributes:
+
+```
+.my-input {
+  @include placeholder(){
+    color: red;
+  }
+}
+```
+
+You can obviously use this outside of a class as well to style all placeholders.
 
 #### Prefixer
 
