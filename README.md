@@ -11,7 +11,7 @@ Several ways to do this. A few are listed below:
 ### NPM Install It
 
 ```
-npm install paulcpederson/scss-utils --save-dev
+npm install scss-utils --save-dev
 ```
 
 If you do it this way, you can use with [node-sass](https://github.com/sass/node-sass#command-line-interface). Just use `--include-path node_modules/scss-utils/`.
@@ -22,7 +22,7 @@ If you do it this way, you can use with [node-sass](https://github.com/sass/node
 git clone git@github.com:paulcpederson/scss-utils.git path/to/your/sass/
 ```
 
-If you do that, you should probably add the folder to your project's gitignore.
+If you do that, you should probably add the folder to your project's `gitignore`.
 
 ## Drag and Drop It
 
