@@ -4,9 +4,9 @@ Small set of mixins and extendable classes for the most basic SASS Stuff. I reco
 
 This is basically a subset of [Bourbon](http://bourbon.io/) along with a couple of things that Bourbon didn't have.
 
-# Install
+## Install
 
-Several ways to do this. A few are listed below:
+Several ways to do this. Two are listed below:
 
 ### NPM Install It
 
@@ -16,15 +16,7 @@ npm install scss-utils --save-dev
 
 If you do it this way, you can use with [node-sass](https://github.com/sass/node-sass#command-line-interface). Just use `--include-path node_modules/scss-utils/`.
 
-### Clone It
-
-```
-git clone git@github.com:paulcpederson/scss-utils.git path/to/your/sass/
-```
-
-If you do that, you should probably add the folder to your project's `gitignore`.
-
-## Drag and Drop It
+### Drag and Drop It
 
 1. Go to the [releases page](https://github.com/paulcpederson/scss-utils/releases).
 2. Click the button to download a zip.
