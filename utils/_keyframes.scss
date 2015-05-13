@@ -3,10 +3,10 @@
 // └───────────┘
 
 @mixin keyframes ($name) {
-  @-webkit-keyframes $name {
+  @-webkit-keyframes #{$name} {
     @content;
   }
-  @keyframes $name {
+  @keyframes #{$name} {
     @content;
   }
 }
