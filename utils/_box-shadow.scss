@@ -2,6 +2,6 @@
 // │ Box Shadow │
 // └────────────┘
 
-@mixin box-shadow ($shadow) {
-  @include prefixer(box-shadow, $shadow, webkit moz spec);
+@mixin box-shadow ($shadows...) {
+  @include prefixer(box-shadow, $shadows, webkit moz spec);
 }
