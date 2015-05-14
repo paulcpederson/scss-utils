@@ -1,6 +1,6 @@
 {
   "name": "scss-utils",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Basic sass utilities and mixins",
   "main": "index.js",
   "homepage": "https://github.com/paulcpederson/scss-utils",
