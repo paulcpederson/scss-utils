@@ -32,30 +32,29 @@ Whatever install method you used, now you can just:
 
 ## Reference
 
-| Mixin                                         | Arguments                      |
-| --------------------------------------------- | ------------------------------ |
-| [`appearance`](#appearance)                   | `$value`                       |
-| [`animation`](#animation)                     | `$animations...`               |
-| [`box-sizing`](#box-sizing)                   | `$box`                         |
-| [`box-shadow`](#box-shadow)                   | `$shadow`                      |
-| [`calc`](#calc)                               | `$property, $value`            |
-| [`clearfix`](#clearfix)                       | none                           |
-| [`keyframes`](#keyframes)                     | `$name`                        |
-| [`placeholder`](#placeholder)                 | none                           |
-| [`prefixer`](#prefixer)                       | `$property, $value, $prefixes` |
-| [`respond-to`](#respond-to)                   | `$max, $mi, $type`             |
-| [`transform`](#transform)                     | `$property`                    |
-| [`transform-origin`](#transform)              | `$axes`                        |
-| [`transform-style`](#transform)               | `$style`                       |
-| [`transition`](#transition)                   | `$value`                       |
-| [`transition-prefixed`](#transition-prefixed) | `$value`                       |
-| [`transition-property`](#transition)          | `$value`                       |
-| [`transition-duration`](#transition)          | `$value`                       |
-| [`transition-timing-function`](#transition)   | `$value`                       |
-| [`transition-delay`](#transition)             | `$value`                       |
-| [`visible`](#visibility)                      | none                           |
-| [`invisible`](#visibility)                    | none                           |
-| [`hide`](#visibility)                         | none                           |
+| Mixin | Arguments |
+| ----- | --------- |
+| [`appearance`](#appearance) | `$value` |
+| [`animation`](#animation) | `$animations...` |
+| [`box-shadow`](#box-shadow) | `$shadow` |
+| [`calc`](#calc) | `$property, $value` |
+| [`clearfix`](#clearfix) | none |
+| [`keyframes`](#keyframes) | `$name` |
+| [`placeholder`](#placeholder) | none |
+| [`prefixer`](#prefixer) | `$property, $value, $prefixes` |
+| [`respond-to`](#respond-to) | `$max, $mi, $type` |
+| [`transform`](#transform) | `$property` |
+| [`transform-origin`](#transform) | `$axes` |
+| [`transform-style`](#transform) | `$style` |
+| [`transition`](#transition) | `$value` |
+| [`transition-prefixed`](#transition-prefixed) | `$value` |
+| [`transition-property`](#transition) | `$value` |
+| [`transition-duration`](#transition) | `$value` |
+| [`transition-timing-function`](#transition) | `$value` |
+| [`transition-delay`](#transition) | `$value` |
+| [`visible`](#visibility) | none |
+| [`invisible`](#visibility) | none |
+| [`hide`](#visibility) | none |
 
 #### Animation
 
@@ -85,16 +84,6 @@ The `appearance` CSS property is used to display an element using a platform-nat
 ```scss
 @include appearance(none);
 ```
-
-#### Box-Sizing
-
-Set the `box-sizing` property for all browsers (with browser prefixes):
-
-```scss
-@include box-sizing(border-box);
-```
-
-Valid values are `content-box`, `border-box`, and `inherit`.
 
 #### Box-Shadow
 
